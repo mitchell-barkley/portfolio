@@ -1,0 +1,130 @@
+/* This is a comment */
+
+body {
+    background-color: black;
+}
+h2, h3 {
+    font-family: "Comic Sans MS";
+    color: red;
+}
+p, li {
+    font-family: "Ariel Black";
+    color:white;
+    font-weight: 700;
+    line-height: 120%;
+}
+.ittext {
+    font-style: italic;
+}
+.btext {
+    font-weight: 700;
+}
+.bbtext {
+    color: blue;
+    font-weight: 700;
+}
+.rbtext {
+    color:red;
+    font-weight: 700;
+}
+nav a:link {
+    color:blue;
+    text-decoration: none;
+    font-size: 20pt;
+}
+nav a:visited {
+    color:blue;
+    text-decoration: none;
+    font-size: 20pt;
+}
+nav a:hover {
+    background-color: blue;
+    color:white;
+    font-weight: 700;
+    font-size: 20pt;
+}
+main a:link {
+    color:yellow;
+    text-decoration: overline underline;
+}
+main a:visited {
+    color:yellow;
+    text-decoration: overline underline;
+}
+main a:hover {
+    background-color: yellow;
+    color:red;
+    font-weight: 700;
+    text-decoration: none;
+}
+footer a:link {
+    color:red;
+    text-decoration: underline;
+}
+footer a:visited {
+    color:red;
+    text-decoration: underline;
+}
+footer a:hover {
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.MainBox {
+    width: 1000px;
+    background-color: black;
+    border: 3px solid red;
+    padding: 30px;
+    text-align: left;
+}
+.FooterLeft {
+    width: 495px;
+    text-align: left;
+    float: left;
+}
+.FooterRight {
+    width: 495px;
+    text-align: right;
+    float: right;
+}
+.quote1box {
+    color:white;
+    width: 300px;
+    background-color:dodgerblue;
+    border: 4px solid darkblue;
+    border-radius: 10px;
+    padding: 40px 20px;
+    float:left;
+    margin:10px;
+}
+.quote2box {
+    color:white;
+    width: 300px;
+    background-color:coral;
+    border: 4px solid darkblue;
+    border-radius: 10px;
+    padding: 40px 20px;
+    float:left;
+    margin:10px;
+}
+.quote3box {
+    color:white;
+    width: 300px;
+    background-color:dimgray;
+    border: 4px solid darkblue;
+    border-radius: 10px;
+    padding: 40px 20px;
+    float:left;
+    margin:10px;
+}
+.quote4box {
+    color:white;
+    width: 300px;
+    background-color:darkolivegreen;
+    border: 4px solid darkblue;
+    border-radius: 10px;
+    padding: 30px 20px;
+    float:left;
+    margin:10px;
+}

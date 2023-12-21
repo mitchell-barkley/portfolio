@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day Planner</title>
+    <link rel="stylesheet" href="./dayplanner.css"/>
+    <style>
+      .success,
+      .error {
+        width: 500px;
+        color: white;
+        padding: 5px;
+        margin: 5px 0 15px 0;
+      }
+      .success {
+        background-color: green;
+      }
+
+      .error {
+        background-color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Day Planner</h1>
+      <p id="notification"></p>
+      <table class="u-full-width" id="data">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Date</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody id="task-list">
+
+        </tbody>
+      </table>
+      <h5>Add New Task</h5>
+      <form id="task-form">
+        <div>
+          <label for="task">Task</label>
+          <input type="text" id="task" class="u-full-width" />
+        </div>
+        <div>
+          <label for="date">Date</label>
+          <input type="text" id="date" class="u-full-width" />
+        </div>
+        <div>
+          <label for="time">Time</label>
+          <input type="text" id="time" class="u-full-width" />
+        </div>
+
+        <div>
+          <input type="submit" value="Submit" class="u-full-width" />
+        </div>
+      </form>
+    </div>
+
+    <script src="./oop.js"></script>
+  </body>
+</html>

@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.mainbox {
+    width: 1000px;
+    height:600px;
+    background-color:blueviolet;
+    padding: 15px;
+    margin: 20px;
+    text-align: left;
+}
+
+.navbox {
+    width:150px;
+    height:40px;
+    text-align: center;
+    padding-top: 10px;
+    margin:5px;
+    float: left;
+}
+
+.currnavbox {
+    width:150px;
+    height:40px;
+    background-color:black;
+    text-align: center;
+    padding-top: 10px;
+    margin:5px;
+    float: left;
+}
+
+nav a:link {
+    color:hotpink;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 14pt;
+}
+
+nav a:visited {
+    color:hotpink;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 14pt;
+}
+
+nav a:hover {
+    color:white;
+    background-color:darkblue;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 14pt;
+}
+
+a:link {
+    color:darkred;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 14pt;
+}
+
+a:visited {
+    color:darkred;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 14pt;
+}
+
+a:hover {
+    color:black;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 14pt;
+}
+
+
+.hometitlebox {
+    width:400px;
+    height:350px;
+    margin:40px;
+    padding-top: 60px;
+    color:navy;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24pt;
+    text-align: left;
+    float:left;
+}
+
+.picbox {
+    width:400px;
+    height:350px;
+    margin:40px;
+    padding-top: 60px;
+    float:left;
+    opacity: 80%;
+}
+
+.titlebox {
+    width:970px;
+    height:50px;
+    color:navy;
+    font-size: 14pt;
+    text-align: center;
+}
+
+.content {
+    width:980px;
+    height:420px;
+    color:black;
+    text-align: left;
+    overflow: auto;
+}
+
+.visionpic {
+    width:400px;
+    margin-left:40px;
+    margin-right: 40px;
+    float:left;
+}
+
+.contactbox {
+    width:900px;
+    height:140;
+    margin-left:30px;
+    margin-top:5px;
+    padding:9px;
+    font-size: 13pt;
+    font-family: monospace;
+    color:cornflowerblue;
+    text-align: center;
+    float:left;
+}
+
+.contact1 {
+    width:900px;
+    height:140;
+    margin-left:30px;
+    margin-top:5px;
+    padding:9px;
+    font-size: 13pt;
+    font-family: monospace;
+    color:white;
+    text-align: center;
+    float:left;
+}
+
+.testbox {
+    width:470px;
+    height:200px;
+    margin:4px;
+    padding:10px;
+    text-align: center;
+    color:goldenrod;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float:left;
+}
+
+.footbox {
+    width:970px;
+    height:50px;
+    margin-top:10px;
+    padding-top: 5px;
+}
+
+.socialbox {
+    width:45px;
+    height:40px;
+    margin-left:30px;
+    float:left;
+}
+
+.copybox {
+    width:350px;
+    height:40px;
+    margin-left: 100px;
+    padding-top:10px;
+    color:black;
+    font-size: 14pt;
+    float:right;
+}
+
+h6 {
+    font-size: 20pt;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+
+td {
+    padding-left: 25px;
+}
+
+li {
+    color:darkgrey;
+    font-style: italic;
+}

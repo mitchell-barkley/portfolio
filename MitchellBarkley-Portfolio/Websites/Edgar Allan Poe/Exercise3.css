@@ -1,0 +1,13 @@
+body {
+    background-color: peachpuff;
+    color:blue
+}
+.MainBox {
+    background-color: skyblue;
+    border: 3px;
+    border-color: midnightblue;
+    padding: 30px;
+    background-image: url(BImage1.jpg);
+    background-position-x: left;
+    background-repeat: repeat-y;
+}

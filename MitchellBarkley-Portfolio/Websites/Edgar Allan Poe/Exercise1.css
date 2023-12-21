@@ -1,0 +1,28 @@
+body {
+    background-color: silver;
+    color:blue;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 120%; /* Line spacing of paragraphs set to 120% */
+}
+a:link a:visited {
+    color:blue;
+    text-decoration: underline;
+}
+a:hover {
+    color:silver;
+    background-color: blue;
+    text-decoration: none;
+}
+li {
+    color:gold; /* List Items have gold text and bold*/
+    font-weight: 700;
+}
